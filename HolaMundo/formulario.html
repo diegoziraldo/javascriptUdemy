@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Eventos y Funciones</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="js/32-ejercicio-dom.js"></script>
+    <style>
+        .box{
+            width: 180px;
+            height: 300px;
+            float: left;
+            margin: 20px;       
+        }
+        .dashed{
+            border: 3px dashed black;
+            padding: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <!--1.Hacer un formulario con los campos: Nombre, Apellido y edad
+        2.Boton de enviar el formulario: eventos submit
+        3.Mostrar datos por pantalla
+        4.Tener un boton que al darle click que nos muestra los datos actuales del formulario
+        5.Hacer las validaciones del formulario-->
+        
+    <h1>Ejercicio DOM - Eventos y Funciones</h1>
+    <div class="box">
+        <!-- Aqui estamos creando el formulario -->
+        <!-- Con onsubmit lo que hago es que 
+            cuando apreto el boton submit no me envie a otra pagina -->
+        <form action="#" method="POST" id="formulario" onsubmit="return false">
+            <!-- Con la etiqueta label podemos enlazar el input,
+                 con la etiqueta label -->
+            <label for="nombre">Nombre</label><br/>
+            <input type="text" name="nombre" id="nombre"><br/>
+
+            <label for="apellido">Apellidos</label><br/>
+            <input type="text" name="apellido" id="apellido"><br/>
+
+            <label for="edad">Edad</label><br/>
+            <input type="text" name="edad" id="edad"><br/>
+            <div id="sub">
+
+            </div>
+            
+            <input type="submit" value="Enviar" id="enviar"><br/>
+
+
+        </form>
+    </div>
+
+    <div class="box dashed">
+        <h3>Informacion del usuario</h3>
+        <hr>
+       
+    </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
