@@ -38,9 +38,9 @@ window.addEventListener('load',()=>{
         inputJs.setAttribute('name', 'email');
         preBoton.appendChild(inputJs);
 
-    var br = document.createElement('<br/>');
+/*     var br = document.createElement('<br/>');
         preBoton.appendChild(br);
-        preBoton.appendChild(br);
+        preBoton.appendChild(br); */
 
 
     //Aqui estamos poniendole un evento 'submit' al boton submit.
@@ -57,7 +57,11 @@ window.addEventListener('load',()=>{
 
     if(nombre.trim() == null || nombre.trim().length == 0){
         alert('El nombre no es correcto');
+        document.querySelector("#error_nombre").innerHTML="El nombre no es valido"
         return false;
+    }else{
+        document.querySelector("#error_nombre").style.display = "none";
+
     }
     
     if(apellido.trim() == null || apellido.trim().length == 0){
