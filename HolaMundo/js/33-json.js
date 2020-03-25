@@ -1,5 +1,8 @@
 'use strict'
 
+window.addEventListener('load',()=>{
+
+
 //JSON - JavaScript Object Notation
 
 //Aqui estamos creando un objeto JSON
@@ -23,10 +26,30 @@ var peliculas = [
     year: 1990,
     pais: 'Argentina'
 
-    }
+    },
+
 ]
 
+var cajaPeliculas = document.querySelector('#peliculas');
+/* console.log(cajaPeliculas) */
+
+var index;
+for(index in peliculas){
+    var parrafo = document.createElement('p');
+    
+    cajaPeliculas.appendChild(parrafo);
+        
+        parrafo.append(peliculas[index].titulo + peliculas[index].year);
+
+    /* parrafo.append(peliculas[index].pais); */
+
+    
+
+}
+
+console.log(salto)
 /* pelicula.titulo = "Superman Begins" */
 
-console.log(peliculas)
+/* console.log(peliculas) */
 
+})
