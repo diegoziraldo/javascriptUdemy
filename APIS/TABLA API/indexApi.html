@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APIS</title>
+    <script src="objetosApi.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
@@ -14,13 +15,34 @@
         <button id="boton" class="btn btn-danger w-100">Obtener</button>
 
         <!-- Aqui empieza el contenido que tendremos en la API -->
-        <div id="contenido" class="mt-5">
-            
-            <!-- <p id="parrafo"></p> -->
+        <div class="mt-5">
+          <!-- Aqui estamos creando una tabla,
+               donde tendremos el titulo,
+               de cada propiedad del objeto JSON  -->
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Email</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Estado</th>
+              </tr>
+            </thead>
+
+            <tbody id="contenido">
+              
+              
+            </tbody>
+          </table>
+
         </div>
+
+
+
     </div>
     
-  </body>
-    <script src="objetos.js"></script>
+
+
 </body>
 </html>

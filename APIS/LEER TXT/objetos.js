@@ -29,15 +29,15 @@ window.addEventListener('load',()=>{
             .then(data=>{
                 console.log(data)
                 /* parrafo.innerHTML = `${data}`; */
-                
                 var p = document.createElement('p');
                     p.setAttribute('id', 'parrafo');
                     p.textContent = `${data}`;
-                    contenido.append(p)
+                    contenido.append(p);
+                    console.log(p);                    
 
-                    var borrar = document.querySelector('#parrafo')
+                    /* var borrar = document.querySelector('#parrafo')
                     borrar.innerHTML = 'caca';
-                    console.log(borrar);
+                    console.log(borrar); */
 
 
 })

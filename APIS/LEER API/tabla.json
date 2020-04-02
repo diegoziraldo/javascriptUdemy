@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "nombre": "Ileana",
+        "email": "ileana@jaciw.com",
+        "estado": "true"
+    },
+    {
+        "id":2,
+        "nombre": "Soledad",
+        "email": "soledad@kobylansky.com",
+        "estado": "false"
+    },
+    {
+        "id":3,
+        "nombre": "Marisol",
+        "email": "marisol@bertone.com",
+        "estado": "true"
+    },
+    {
+        "id":4,
+        "nombre": "Malen",
+        "email": "malen@azzam.com",
+        "estado": "false"
+    }
+]

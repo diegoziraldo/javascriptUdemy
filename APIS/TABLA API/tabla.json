@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "nombre": "Ileana",
+        "email": "ileana@jaciw.com",
+        "estado": true,
+        "telefono": 1554785689
+    },
+    {
+        "id":2,
+        "nombre": "Soledad",
+        "email": "soledad@kobylansky.com",
+        "estado": false,
+        "telefono": 1550973167
+    },
+    {
+        "id":3,
+        "nombre": "Marisol",
+        "email": "marisol@bertone.com",
+        "estado": true,
+        "telefono": 1545789832
+    },
+    {
+        "id":4,
+        "nombre": "Malen",
+        "email": "malen@azzam.com",
+        "estado": false,
+        "telefono": 1545213265
+    },
+    {
+        "id":5,
+        "nombre": "Virginia",
+        "email": "virginia@berretti.com",
+        "estado": true,
+        "telefono": 1587253265
+    }
+]

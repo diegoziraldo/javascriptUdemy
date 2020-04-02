@@ -1,9 +1,9 @@
 window.addEventListener('load',()=>{
 
-    var nombre = "<i> Diego </i>";
+    var nombre = "<p>Diego</p>";
     var hUno = document.createElement('h1');
     hUno.id = 'encabezado'
-    hUno.textContent = nombre
+    hUno.innerHTML = nombre
     document.body.appendChild(hUno)
 
 
