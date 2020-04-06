@@ -1,69 +1,38 @@
-window.addEventListener('load',()=>{
-
-    var nombre = "<p>Diego</p>";
-    var hUno = document.createElement('h1');
-    hUno.id = 'encabezado'
-    hUno.innerHTML = nombre
-    document.body.appendChild(hUno)
 
 
+window.addEventListener('load', ()=>{
+
+var divPunto = document.querySelector('#loading');
 
 
-
-
-/* var nombre = "Diego";
-
-var hUno = document.createElement('p');
-    hUno.setAttribute('id', 'encabezado'); */
-    /* hUno.id = 'encabezado' */
-/*     hUno.textContent = nombre
-    window.document.body.appendChild(hUno) */
+repetir();
+var contador = 0;
+function repetir(){
     
-/* hUno.setAttribute('id', 'encabezado'); */
-/* console.log(hUno); */
-    
-    /* hUno.id = 'encabezado'; */
+    setInterval(puntos, 800);
+}
 
-    /* var divHtml = document.querySelector('#encabezado'); */
-    
-    /* console.log(divHtml); */
-    /* divHtml.append(hUno); */
-   
-    
+function puntos(){
+    if(contador < 3){ 
+    divPunto.innerHTML += `.`;
+    contador++;
+    }
+    else{
+        divPunto.innerHTML = ``;
+        contador = 0;    
+    }
 
+}
 
-
-/*  var nombre = "Diego";
-    var hUno = document.createElement('h1');
-    hUno.id = 'encabezado'
-    hUno.textContent = nombre
-    window.document.body.appendChild(hUno) */
-    
-
-})
+});
 
 
 
+/* var inputJs = document.createElement('input');
 
-
-
-
-
-
-
-
-/* Hola que tal!! les comento estoy empezando con javascript, y estoy haciendo un ejercicio de crear etiquetas html para pegarlas en el DOM, mi idea es crear esa etiqueta y darle un atributo Id, para luego poder llamarlo mediante ese nombre de Id, y así poder agregarle un valor, acá les paso el código que escribí si alguno me puede dar una mano se lo agradecería!
-
-window.addEventListener('load',()=>{
-
-var nombre = "Diego";
-
-var hUno = document.createElement('h1');
-
-hUno.setAttribute('id', 'encabezado');
-
-var divHtml = document.querySelector('#encabezado');
-
-divHtml.appendChild(nombre)
-
-}) */
+inputJs.setAttribute('placeholder', 'Email');
+inputJs.setAttribute('id', 'email');
+inputJs.setAttribute('type', 'text');
+inputJs.setAttribute('name', 'email');
+preBoton.appendChild(inputJs);
+ */
