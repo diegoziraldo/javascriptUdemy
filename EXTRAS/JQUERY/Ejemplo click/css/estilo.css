@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#caja{
+    width: 200px;
+    height: 100px;
+    background: blue;
+    cursor: po;
+}

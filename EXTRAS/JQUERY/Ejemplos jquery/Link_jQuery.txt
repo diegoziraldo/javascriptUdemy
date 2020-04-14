@@ -1,0 +1,2 @@
+jquery principios:
+https://www.bluuweb.org/jquery
