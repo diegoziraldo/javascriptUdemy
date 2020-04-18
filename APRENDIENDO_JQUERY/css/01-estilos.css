@@ -1,0 +1,11 @@
+.zebra{
+    border: 2px dashed black;
+    font-weight: bold;
+    padding: 10px;
+    }  
+
+.margenSuperior{
+    display: block;
+    margin-top: 45px;
+    
+}

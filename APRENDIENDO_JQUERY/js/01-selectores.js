@@ -48,5 +48,31 @@ $(document).ready(()=>{
     parrafos.click(function(){
         $(this).removeClass('zebra');
     })
-    
+  
+    //Selectores de atributo
+    //Aqui estamos seleccionando todos los elementos,
+    //que su atributo sea igual al que le estamos pasando,
+    //en este caso seria (title="you Tube")
+    $('[title="you Tube"]').css('color','green')
+    $('[title="clarin"]').mouseover(function(){
+        $(this).html('Clarin Miente');
+    })
+
+    //Otro
+
+    $('a').addClass('margenSuperior')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 })

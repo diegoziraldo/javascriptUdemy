@@ -1,0 +1,84 @@
+.formas{
+    font-size: 40px;
+    width: 330px;
+    height: auto;
+    background: burlywood;
+    border: 1px solid black;
+}
+
+.caja{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    color: cornsilk;
+    background: red;
+    transition: 800ms all;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangulo{
+    width: 400px;
+    height: 200px;
+    border: 2px solid black ;
+    background: green;
+    transition: 800ms all;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo{
+    width: 300px;
+    height: 300px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid black ;
+    background:yellow;
+    transition: 800ms all;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.algo{
+    width: 30px !important;
+}
+
+
+input{
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+}
+
+#datos{
+    border: 2px dashed black;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    display: none;
+}
+
+#sigueme{
+
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    display: block;
+    background: cyan;
+    /* opacity: 0.5; */
+    border-radius: 999px;
+}
+
+/* #caja:hover{
+    background: red;
+    cursor: pointer;
+    
+} */
